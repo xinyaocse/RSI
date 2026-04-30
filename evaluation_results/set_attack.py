@@ -6,8 +6,7 @@ Set-distinguishability attack.
 
 Notes:
   - This script expects your project provides `retrieval_database.get_encoder`.
-  - Recommended for GitHub: install project in editable mode:
-      pip install -e .
+  - Recommended for GitHub: install project in editable mode: pip install -e .
 """
 
 import argparse
