@@ -1,5 +1,5 @@
-# RSI
-Retrieval-Set Indistinguishability
+# **$(\epsilon,q)$-RSI**
+Query-conditioned Retrieval-Set Indistinguishability
 
 ## Environmental Setup
 
@@ -10,6 +10,8 @@ pip3 install torch torchvision torchaudio
 ```
 
 Then, following [Llama 2 install guide](https://github.com/facebookresearch/llama?tab=readme-ov-file#quick-start) to install Llama 2. **Note** that you should download the models (including the file `tokenizer.model` and the folder that store the parameters of the Llama) in folder  `.\Model`. 
+
+In addition, download the embedding model [bge-large-en-v1.5](https://huggingface.co/BAAI/bge-large-en-v1.5) and place it under the same `.\Model` directory. 
 
 An example directory structure is shown below:
 ```
@@ -24,6 +26,10 @@ An example directory structure is shown below:
     |   |-- consolidated.00.pth
     |   |-- consolidated.01.pth
     |   |-- params.json
+    |-- bge-large-en-v1.5
+    |   |-- model.safetensors
+    |   |-- config.json
+    |   |-- tokenizer.json
 ```
 
 Finally, install the remaining dependencies listed in `requirements.txt` file: 
