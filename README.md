@@ -1,4 +1,4 @@
-# **$(\epsilon,q)$-RSI**
+# **$(\epsilon, q)$-RSI**
 Query-conditioned Retrieval-Set Indistinguishability
 
 ## Environmental Setup
