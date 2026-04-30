@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """
+(epsilon,q)-RSI.
 VDPM protection on neighborhoods.
 """
 
