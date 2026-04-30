@@ -342,7 +342,7 @@ def parse_args():
         "--out_json",
         type=str,
         default="",
-        help="Optional: save summary and per-query details to this JSON file.",
+        help="Optional: save summary and details to this JSON file.",
     )
 
     p.add_argument(
